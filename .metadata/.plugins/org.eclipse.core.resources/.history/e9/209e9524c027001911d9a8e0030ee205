@@ -1,0 +1,56 @@
+package com.luv2code.test;
+
+import java.io.File;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.luv2code.jackson.json.demo.Address;
+import com.luv2code.jackson.json.demo.Student;
+
+public class Driver {
+
+	public static void main(String[] args) {
+	
+//		try {
+//			//create obj mapper
+//			ObjectMapper mapper = new ObjectMapper();
+//			
+//			//read json map to pojo
+//			Employees theEmployees = 
+//					mapper.readValue(new File("data/javatpoint.json"), Employees.class);
+//			
+//			//print out
+//			Employee theEmployee = theEmployees.getEmployee();
+//			System.out.println(theEmployee.getSalary());
+//			//System.out.println("name " + theEmployees.getEmployee().getName());
+//			//System.out.println("Name "+ theEmployees.getDIV().getName());
+//		}
+
+		try {
+			
+			// create obj map
+			ObjectMapper mapper = new ObjectMapper();
+			
+			//read JSON file and map to POJO
+			//sample-lite.json
+			
+			Student theStudent = 
+					//mapper.readValue(new File("data/sample2.json"),Student.class);
+					mapper.readValue(new File("data/sample.json"),Student.class);
+					//print first name, last name
+			System.out.println(theStudent.getFirstName());
+			System.out.println(theStudent.getLastName());
+			
+			Address theAddress = theStudent.getAddress();
+			System.out.println(theAddress.getCity() +" "+ theAddress.getCountry());
+			//System.out.println(theStudent.getAddress().getCity());
+					
+			for(String theLang: theStudent.getLanguages())
+			{
+				System.out.println(theLang);
+			}
+		catch(Exception exc) {
+			exc.printStackTrace();
+		}
+	}
+
+}

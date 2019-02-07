@@ -1,0 +1,12 @@
+package com.thejavageek;
+
+@WebService(endpointInterface = "")
+public class HelloWorldServerImpl implements HelloWorldServer {
+
+	
+	@Override
+	public String sayHello(String name) {
+		return null;
+	}
+
+}

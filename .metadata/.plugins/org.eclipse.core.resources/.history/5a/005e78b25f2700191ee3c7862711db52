@@ -1,0 +1,16 @@
+package com.luv2code.test;
+
+public class Employees {
+
+	private Employee Employee;
+
+	public Employee getEmployee() {
+		return Employee;
+	}
+
+	public void setEmployee(Employee employee) {
+		Employee = employee;
+	}
+	
+
+}

@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sun Jan 27 12:18:38 EST 2019
+org.eclipse.jst.jee.server\:/binary\:/home/ye/.m2/repository/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE.jar=/home/ye/Documents/tomcat9/apache-tomcat-9.0.14/wtpwebapps/spring-crm-rest/WEB-INF/lib/spring-web-5.0.6.RELEASE.jar
+org.eclipse.jst.jee.server\:spring-crm-rest=/home/ye/Documents/tomcat9/apache-tomcat-9.0.14/wtpwebapps/spring-crm-rest

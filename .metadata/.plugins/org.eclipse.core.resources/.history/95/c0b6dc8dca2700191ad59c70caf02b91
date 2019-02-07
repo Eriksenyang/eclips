@@ -1,0 +1,43 @@
+package com.luv2code.test;
+
+public class Test1 {
+
+	private String name;
+
+	private Employee employee;
+	
+	private String[] weekday;
+	
+	private Students[] students;
+	
+	public Test1() {
+		
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Employee getEmployee() {
+		return employee;
+	}
+
+	public void setEmployee(Employee employee) {
+		this.employee = employee;
+	}
+
+	public String[] getWeekday() {
+		return weekday;
+	}
+
+	public void setWeekday(String[] weekday) {
+		this.weekday = weekday;
+	}
+
+
+
+}

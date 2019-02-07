@@ -1,0 +1,9 @@
+{
+	"id":1,
+	
+	"Div": {
+		"name": "sooo",
+		"salary": 56000,
+		"married": true
+	}
+}

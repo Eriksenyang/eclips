@@ -1,0 +1,5 @@
+package com.luv2code.hibernate.demo.entiry;
+
+public class Course {
+
+}

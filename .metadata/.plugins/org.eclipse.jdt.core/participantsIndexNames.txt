@@ -1,0 +1,13 @@
+INDEX VERSION 1.131
+/home/ye/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/476549201.index
+/spring-rest-demo/src/main/java
+/home/ye/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3750454120.index
+/web-customer-tracker/src
+/home/ye/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/706933941.index
+/web-customer-tracker/src
+/home/ye/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3519421886.index
+/mycoolwebapp/src/main/resources
+/home/ye/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/388236076.index
+/spring-crm-rest/src/main/java
+/home/ye/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/39016037.index
+/web-customer-tracker/src

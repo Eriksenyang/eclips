@@ -1,0 +1,17 @@
+package com.luv2code.test;
+
+public class Employees {
+	
+	private String id;
+	
+	private Employee DIV;
+
+	public Employee getEmployee() {
+		return employee;
+	}
+
+	public void setEmployee(Employee employee) {
+		this.employee = employee;
+	}
+
+}

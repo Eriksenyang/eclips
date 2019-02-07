@@ -1,0 +1,18 @@
+package com.luv2code.test;
+
+public class Driver {
+
+	public static void main(String[] args) {
+	
+		try {
+			//create obj mapper
+			
+			
+			//read json map to pojo
+		}
+		catch(Exception exc) {
+			exc.printStackTrace();
+		}
+	}
+
+}

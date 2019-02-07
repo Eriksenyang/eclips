@@ -1,0 +1,25 @@
+package com.luv2code.test;
+
+public class Employees {
+
+	private int id;
+
+	private DIV DIV;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public DIV getDIV() {
+		return DIV;
+	}
+
+	public void setDIV(DIV dIV) {
+		DIV = dIV;
+	}
+
+}

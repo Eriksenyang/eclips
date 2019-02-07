@@ -1,0 +1,18 @@
+package com.luv2code.test;
+
+public class Employees {
+
+
+	private DIV Div;
+
+	public DIV getDiv() {
+		return Div;
+	}
+
+	public void setDiv(DIV div) {
+		Div = div;
+	}
+
+
+
+}

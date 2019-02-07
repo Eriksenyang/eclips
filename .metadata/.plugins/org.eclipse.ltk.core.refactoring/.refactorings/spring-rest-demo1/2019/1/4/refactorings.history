@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.luv2code.springdemo.config.MySpringMvcSispatcherServletInitializer.java&apos; to &apos;MySpringMvcDispatcherServletInitializer.java&apos;&#x0A;- Original project: &apos;spring-rest-demo&apos;&#x0A;- Original element: &apos;com.luv2code.springdemo.config.MySpringMvcSispatcherServletInitializer.java&apos;&#x0A;- Renamed element: &apos;com.luv2code.springdemo.config.MySpringMvcDispatcherServletInitializer.java&apos;" description="Rename compilation unit &apos;MySpringMvcSispatcherServletInitializer.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java&lt;com.luv2code.springdemo.config{MySpringMvcSispatcherServletInitializer.java" name="MySpringMvcDispatcherServletInitializer.java" references="false" stamp="1547949281869" version="1.0"/>
+</session>

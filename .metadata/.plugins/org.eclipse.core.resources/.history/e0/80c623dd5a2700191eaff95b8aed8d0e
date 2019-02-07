@@ -1,0 +1,27 @@
+package com.luv2code.test;
+
+import java.io.File;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class Driver {
+
+	public static void main(String[] args) {
+	
+		try {
+			//create obj mapper
+			ObjectMapper mapper = new ObjectMapper();
+			
+			//read json map to pojo
+			Employees theEmployees = 
+					mapper.readValue(new File("data/javatpoint.json"), Employees.class);
+			
+			//print out
+			System.out.println("Name "+ theEmployee.getName());
+		}
+		catch(Exception exc) {
+			exc.printStackTrace();
+		}
+	}
+
+}

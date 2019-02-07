@@ -1,0 +1,39 @@
+package com.luv2code.test;
+
+import java.io.File;
+
+import org.json.simple.JSONValue;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class Drive1 {
+
+	public static void main(String[] args) {
+		try {
+			//create obj mapper
+			ObjectMapper mapper = new ObjectMapper();
+			
+			//read json map to pojo
+			Test1 theTest1 = 
+					mapper.readValue(new File("data/1.json"), Test1.class);
+			
+			//print out
+			
+			System.out.println(theTest1.getName());
+			System.out.println(theTest1.getEmployee().getName());
+			
+			for(String weekday : theTest1.getWeekday()) {
+				System.out.println(weekday);
+			}
+			
+		 for(Students theStudent : theTest1.getStudents()) {
+			 String jsonText = JSONValue.toJSONString(theStudent.getStudent().getName());
+			 
+		 }
+		
+		}
+		catch(Exception exc) {
+			exc.printStackTrace();
+		}
+	}
+	}

@@ -1,0 +1,10 @@
+package com.javatpoint.java;
+
+
+public class JavaEncode1 {
+
+	public static void main(String[] args) {
+		JSONObject obj = new JSONObject();
+	}
+
+}
