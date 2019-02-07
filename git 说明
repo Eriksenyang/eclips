@@ -1,0 +1,5 @@
+在git bush 中添加remote branch, 然后push
+
+git remote add origin https://github.com/Eriksenyang/eclips.git
+
+git push -u origin master
